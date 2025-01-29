@@ -7,22 +7,42 @@ body{
     background-color: darkkhaki;
 }
 
-footer{
-    color: whitesmoke;
-    background-color: rgb(67, 72, 94);
+p{
+    margin: 10px;
+    line-height: 3ex;
+    text-align: justify;
+}
+
+nav ul li:hover{
+    background-color: whitesmoke;
+}
+
+nav ul li{
     text-align: center;
-    padding: 15px;
-    box-shadow: 0 -15px 10px;
+
 }
 
-footer a{
-    color: whitesmoke;
-    text-decoration: none;
-    transition: 0.3;
-    padding: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+nav ul li ul{
+    display: grid;
+    grid-template-columns: auto;
 }
 
+nav ul li ul li{
+    display: none;
+}
+nav ul li:hover ul{
+    display: block;
+}
+/*main{
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: center;
+    background-color: rgb(66, 66, 66);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+
+    margin: 0 auto 50px auto;
+}*/
 main{
     width: 50%;
     margin: 0 auto 50px auto;
@@ -37,41 +57,20 @@ nav ul{
     justify-content: center;
     justify-items: stretch;
 }
-nav ul li:hover{
-    background-color: whitesmoke;
-}
-nav ul li{
+footer{
+    color: whitesmoke;
+    background-color: rgb(67, 72, 94);
     text-align: center;
-
+    padding: 15px;
+    box-shadow: 0 -15px 10px;
 }
-nav ul li ul{
-    display: grid;
+footer a{
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.3;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-nav ul li ul:hover{
-    display: grid;
-    grid-template-columns: auto;
-
-}
-nav ul li ul li{
-    
-}
-/*main{
-    display: grid;
-    grid-template-columns: 50%;
-    justify-content: center;
-    background-color: rgb(66, 66, 66);
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px;
-
-    margin: 0 auto 50px auto;
-}*/
-
-p{
-    margin: 10px;
-    line-height: 3ex;
-    text-align: justify;
-}
-
 footer a:hover{
     
     color: whitesmoke;
@@ -79,3 +78,10 @@ footer a:hover{
     font-weight: bold;
     font-size:  15pt;
 } 
+
+
+
+
+
+
+
